@@ -2,8 +2,6 @@
 
 Code for paper `Probing Implicit Difficulty Perception in Large Language Models`.
 
-Arxiv: https://arxiv.org/abs/2510.05969
-
 ## Pipeline
 
 ![Pipeline](img/framework.jpg)
@@ -201,19 +199,4 @@ for epoch in range(epochs):
 
     if (epoch+1) % 5 == 0:
         print(f"Epoch {epoch+1}, Train Loss: {epoch_train_loss:.4f}, Val Loss: {epoch_val_loss:.4f}")
-```
-
-
-## Citation
-
-```
-@misc{lee2025probingdifficultyperceptionmechanism,
-      title={Probing the Difficulty Perception Mechanism of Large Language Models}, 
-      author={Sunbowen Lee and Qingyu Yin and Chak Tou Leong and Jialiang Zhang and Yicheng Gong and Shiwen Ni and Min Yang and Xiaoyu Shen},
-      year={2025},
-      eprint={2510.05969},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2510.05969}, 
-}
 ```
